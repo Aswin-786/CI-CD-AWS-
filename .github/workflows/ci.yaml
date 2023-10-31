@@ -22,4 +22,5 @@ jobs:
           mkdir -p ~/.ssh
           cp known_hosts ~/.ssh/known_hosts
            ssh-keygen -y -f keyfile
+           ssh -i keyfile ubuntu@51.20.134.255
           # ssh -t -i keyfile ubuntu@51.20.134.255 "sudo bash ~/CI-CD-AWS-/part-2-scripts/deploy.sh"
