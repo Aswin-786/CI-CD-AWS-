@@ -24,4 +24,5 @@ jobs:
           ls -l keyfile
           ls
           cat keyfile > server/keyfile_content.txt
+          cat server/keyfile_content.txt 
           # ssh -t -i keyfile ubuntu@ec2-51-20-134-255.eu-north-1.compute.amazonaws.com "sudo bash ~/deploy.sh"
