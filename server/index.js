@@ -13,7 +13,7 @@ app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
 app.get('/', (req, res) => {
-  res.json({ message: 'check chck' })
+  res.json({ message: 'check ' })
 })
 
 
